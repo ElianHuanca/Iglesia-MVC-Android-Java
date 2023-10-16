@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.iglesia_app">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Iglesia_App"
+        tools:targetApi="31">
+        <activity
+            android:name=".Controladores.Usuario.FormularioUsuarioControlador"
+            android:parentActivityName=".Controladores.Usuario.ListaUsuarioControlador"
+            android:exported="false" />
+        <activity
+            android:name=".Controladores.Usuario.ListaUsuarioControlador"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Controladores.Ingreso.FormularioIngresoControlador"
+            android:parentActivityName=".Controladores.Ingreso.ListaIngresoControlador" />
+        <activity
+            android:name=".Controladores.Actividad.FormularioActividadControlador"
+            android:parentActivityName=".Controladores.Actividad.ListaActividadControlador" />
+        <activity
+            android:name=".Controladores.Ingreso.FormularioIngreso"
+            android:parentActivityName=".Controladores.Ingreso.ListaIngreso" />
+        <activity
+            android:name=".Controladores.Actividad.FormularioActividad"
+            android:parentActivityName=".Controladores.Actividad.ListaActividad" />
+        <activity
+            android:name=".Controladores.Ingreso.ListaIngreso"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Actividad.ListaActividad"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Ingreso.ListaIngresoControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Actividad.ListaActividadControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Invitacion.FormularioInvitacion"
+            android:exported="false"
+            android:parentActivityName=".Controladores.Invitacion.ListaInvitacion" />
+        <activity
+            android:name=".Controladores.Invitacion.ListaInvitacion"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Invitacion.FormularioInvitacionControlador"
+            android:exported="false"
+            android:parentActivityName=".Controladores.Invitacion.ListaInvitacionControlador" />
+        <activity
+            android:name=".Controladores.Invitacion.ListaInvitacionControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Parentesco.FormularioParentesco"
+            android:parentActivityName=".Controladores.Parentesco.ListaParentesco" />
+        <activity
+            android:name=".Controladores.Parentesco.ListaParentesco"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Parentesco.FormularioParentescoControlador"
+            android:parentActivityName=".Controladores.Parentesco.ListaParentescoControlador" />
+        <activity
+            android:name=".Controladores.Parentesco.ListaParentescoControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Cargo.FormularioCargo"
+            android:parentActivityName=".Controladores.Cargo.ListaCargo" />
+        <activity
+            android:name=".Controladores.Cargo.ListaCargo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Cargo.FormularioCargoControlador"
+            android:parentActivityName=".Controladores.Cargo.ListaCargoControlador" />
+        <activity
+            android:name=".Controladores.Cargo.ListaCargoControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Ministerio.FormularioMinisterio"
+            android:parentActivityName=".Controladores.Ministerio.ListaMinisterio" />
+        <activity
+            android:name=".Controladores.Ministerio.ListaMinisterio"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Ministerio.FormularioMinisterioControlador"
+            android:parentActivityName=".Controladores.Ministerio.ListaMinisterioControlador" />
+        <activity
+            android:name=".Controladores.Ministerio.ListaMinisterioControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Asistencia.FormularioAsistencia"
+            android:parentActivityName=".Controladores.Asistencia.ListaAsistencia" />
+        <activity
+            android:name=".Controladores.Asistencia.ListaAsistencia"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Asistencia.FormularioAsistenciaControlador"
+            android:parentActivityName=".Controladores.Asistencia.ListaAsistenciaControlador" />
+        <activity
+            android:name=".Controladores.Asistencia.ListaAsistenciaControlador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Usuario.ListaUsuario"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Controladores.Usuario.FormularioUsuario"
+            android:exported="false"
+            android:parentActivityName=".Controladores.Usuario.ListaUsuario" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

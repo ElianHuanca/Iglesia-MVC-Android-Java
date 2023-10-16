@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Iglesia_App</string>
+
+    <string name="Registrar">Registrar</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Guardar">Guardar</string>
+
+    <string name="ID">Digite el ID</string>
+    <string name="idActividad">ID de la Actividad</string>
+    <string name="ci">CI</string>
+    <string name="ci2">CI De Invitado</string>
+    <string name="ci3">Tu CI</string>
+    <string name="ci4">CI de Familiar</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="celular">Celular</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="hora2">Hora Fin</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="FechaInicio">Fecha Inicio</string>
+    <string name="FechaFin">Fecha Fin</string>
+    <string name="Monto">Monto</string>
+
+
+    <string name="select">Elige un rol</string>
+    <string name="usuarios">Gestionar Usuarios</string>
+    <string name="asistencias">Gestionar Asistencias</string>
+    <string name="ministerios">Gestionar Ministerios</string>
+    <string name="cargos">Gestionar Cargos</string>
+    <string name="invitaciones">Gestionar Invitaciones</string>
+    <string name="parentescos">Gestionar Parentescos</string>
+    <string name="actividades">Gestionar Actividades</string>
+    <string name="ingresos">Gestionar Ingresos</string>
+
+
+</resources>
