@@ -24,7 +24,7 @@ public class FormularioAsistenciaControlador extends AppCompatActivity {
     EditText et_ciasistencia,et_horaasistencia,et_idActividad;
     Button btn_gasistencia;
     private int id;
-    AsistenciaModelo asistenciaModelo;
+    //AsistenciaModelo asistenciaModelo;
     UsuarioModelo usuarioModelo;
     ActividadModelo actividadModelo;
     Context context;

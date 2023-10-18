@@ -28,29 +28,10 @@
             android:name=".Controladores.Actividad.FormularioActividadControlador"
             android:parentActivityName=".Controladores.Actividad.ListaActividadControlador" />
         <activity
-            android:name=".Controladores.Ingreso.FormularioIngreso"
-            android:parentActivityName=".Controladores.Ingreso.ListaIngreso" />
-        <activity
-            android:name=".Controladores.Actividad.FormularioActividad"
-            android:parentActivityName=".Controladores.Actividad.ListaActividad" />
-        <activity
-            android:name=".Controladores.Ingreso.ListaIngreso"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Actividad.ListaActividad"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Controladores.Ingreso.ListaIngresoControlador"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Controladores.Actividad.ListaActividadControlador"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Invitacion.FormularioInvitacion"
-            android:exported="false"
-            android:parentActivityName=".Controladores.Invitacion.ListaInvitacion" />
-        <activity
-            android:name=".Controladores.Invitacion.ListaInvitacion"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Controladores.Invitacion.FormularioInvitacionControlador"
@@ -60,22 +41,10 @@
             android:name=".Controladores.Invitacion.ListaInvitacionControlador"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Controladores.Parentesco.FormularioParentesco"
-            android:parentActivityName=".Controladores.Parentesco.ListaParentesco" />
-        <activity
-            android:name=".Controladores.Parentesco.ListaParentesco"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Controladores.Parentesco.FormularioParentescoControlador"
             android:parentActivityName=".Controladores.Parentesco.ListaParentescoControlador" />
         <activity
             android:name=".Controladores.Parentesco.ListaParentescoControlador"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Cargo.FormularioCargo"
-            android:parentActivityName=".Controladores.Cargo.ListaCargo" />
-        <activity
-            android:name=".Controladores.Cargo.ListaCargo"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Controladores.Cargo.FormularioCargoControlador"
@@ -84,22 +53,10 @@
             android:name=".Controladores.Cargo.ListaCargoControlador"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Controladores.Ministerio.FormularioMinisterio"
-            android:parentActivityName=".Controladores.Ministerio.ListaMinisterio" />
-        <activity
-            android:name=".Controladores.Ministerio.ListaMinisterio"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Controladores.Ministerio.FormularioMinisterioControlador"
             android:parentActivityName=".Controladores.Ministerio.ListaMinisterioControlador" />
         <activity
             android:name=".Controladores.Ministerio.ListaMinisterioControlador"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Asistencia.FormularioAsistencia"
-            android:parentActivityName=".Controladores.Asistencia.ListaAsistencia" />
-        <activity
-            android:name=".Controladores.Asistencia.ListaAsistencia"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Controladores.Asistencia.FormularioAsistenciaControlador"
@@ -107,14 +64,6 @@
         <activity
             android:name=".Controladores.Asistencia.ListaAsistenciaControlador"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Usuario.ListaUsuario"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Controladores.Usuario.FormularioUsuario"
-            android:exported="false"
-            android:parentActivityName=".Controladores.Usuario.ListaUsuario" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

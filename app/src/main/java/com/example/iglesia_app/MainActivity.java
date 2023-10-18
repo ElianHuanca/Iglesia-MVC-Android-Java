@@ -9,22 +9,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-
-import com.example.iglesia_app.Controladores.Actividad.ListaActividad;
 import com.example.iglesia_app.Controladores.Actividad.ListaActividadControlador;
-import com.example.iglesia_app.Controladores.Asistencia.ListaAsistencia;
 import com.example.iglesia_app.Controladores.Asistencia.ListaAsistenciaControlador;
-import com.example.iglesia_app.Controladores.Cargo.ListaCargo;
 import com.example.iglesia_app.Controladores.Cargo.ListaCargoControlador;
-import com.example.iglesia_app.Controladores.Ingreso.ListaIngreso;
 import com.example.iglesia_app.Controladores.Ingreso.ListaIngresoControlador;
-import com.example.iglesia_app.Controladores.Invitacion.ListaInvitacion;
 import com.example.iglesia_app.Controladores.Invitacion.ListaInvitacionControlador;
-import com.example.iglesia_app.Controladores.Ministerio.ListaMinisterio;
 import com.example.iglesia_app.Controladores.Ministerio.ListaMinisterioControlador;
-import com.example.iglesia_app.Controladores.Parentesco.ListaParentesco;
 import com.example.iglesia_app.Controladores.Parentesco.ListaParentescoControlador;
-import com.example.iglesia_app.Controladores.Usuario.ListaUsuario;
 import com.example.iglesia_app.Controladores.Usuario.ListaUsuarioControlador;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -52,14 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_usuarios:
-                /*Intent intent = new Intent(context, ListaUsuario.class);
-                startActivity(intent);*/
                 Intent intent = new Intent(context, ListaUsuarioControlador.class);
                 startActivity(intent);
                 break;
             case R.id.btn_asistencias:
-                /*Intent intent2 = new Intent(context, ListaAsistencia.class);
-                startActivity(intent2);*/
                 Intent intent2 = new Intent(context, ListaAsistenciaControlador.class);
                 startActivity(intent2);
                 break;

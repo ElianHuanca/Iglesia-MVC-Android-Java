@@ -31,7 +31,7 @@ public class conexionDB extends SQLiteOpenHelper {
             "nombre TEXT, "+
             "monto DOUBLE, "+
             "idActividad INTEGER, "+
-            "FOREIGN KEY(idActividad) REFERENCES actividades(id) "+
+            "FOREIGN KEY(idActividad) REFERENCES actividades(id) ON DELETE CASCADE "+
             ");";
 
     private String TABLA_ASISTENCIAS="CREATE TABLE asistencias(" +
@@ -39,8 +39,8 @@ public class conexionDB extends SQLiteOpenHelper {
             "hora TIME, "+
             "idUsuario INTEGER, "+
             "idActividad INTEGER, "+
-            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id), "+
-            "FOREIGN KEY(idActividad) REFERENCES actividades(id)"+
+            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id) ON DELETE CASCADE, "+
+            "FOREIGN KEY(idActividad) REFERENCES actividades(id) ON DELETE CASCADE"+
             ");";
 
     private String TABLA_MINISTERIOS= "CREATE TABLE ministerios(" +
@@ -56,8 +56,8 @@ public class conexionDB extends SQLiteOpenHelper {
             "fechaFin DATE, " +
             "idMinisterio INTEGER, "+
             "idUsuario INTEGER, " +
-            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id), " +
-            "FOREIGN KEY(idMinisterio) REFERENCES ministerios(id)" +
+            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id) ON DELETE CASCADE, " +
+            "FOREIGN KEY(idMinisterio) REFERENCES ministerios(id) ON DELETE CASCADE" +
             ");";
 
     private String TABLA_INVITACION="CREATE TABLE invitaciones(" +
@@ -65,8 +65,8 @@ public class conexionDB extends SQLiteOpenHelper {
             "fecha DATE, " +
             "idUsuario INTEGER, "+
             "idUsuario2 INTEGER, "+
-            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id),"+
-            "FOREIGN KEY(idUsuario2) REFERENCES usuarios(id)" +
+            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id) ON DELETE CASCADE, "+
+            "FOREIGN KEY(idUsuario2) REFERENCES usuarios(id) ON DELETE CASCADE" +
             ");";
 
     private String TABLA_PARENTESCO="CREATE TABLE parentescos(" +
@@ -74,8 +74,8 @@ public class conexionDB extends SQLiteOpenHelper {
             "tipo TEXT, " +
             "idUsuario INTEGER, " +
             "idUsuario2 INTEGER, " +
-            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id),"+
-            "FOREIGN KEY(idUsuario2) REFERENCES usuarios(id)" +
+            "FOREIGN KEY(idUsuario) REFERENCES usuarios(id) ON DELETE CASCADE, "+
+            "FOREIGN KEY(idUsuario2) REFERENCES usuarios(id) ON DELETE CASCADE" +
             ");";
 
     public conexionDB(@Nullable Context context) {
