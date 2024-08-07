@@ -8,8 +8,6 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.iglesia_app.Modelos.Usuario.UsuarioNegocio;
-
 import java.util.ArrayList;
 
 public class TableDynamic {
