@@ -18,8 +18,8 @@ This is a mobile application developed with Java in Android Studio to manage inf
 
 | **Dashboard** | **Attendance List** | **Income List** |
 |:-------------------:|:--------------------------:|:----------------:|
-| ![Dashboard](./screenshots/Dashboard.png) | ![Attendance List](./screenshots/ListadoAsistencias.png) | ![Income List](./screenshots/ListadoIngresos.png) |
+| ![Dashboard](./screenshots/Dashboard.jpg) | ![Attendance List](./screenshots/ListadoAsistencias.jpg) | ![Income List](./screenshots/ListadoIngresos.jpg) |
 
 | **User Form** | **Activity Form** | **Income Form** |
 |:-----------------------:|:---------------------------------:|:--------------------------------------:|
-| ![User Form](./screenshots/FormUsuarios.png) | ![Activity Form](./screenshots/FormActividades.png) | ![Income Form](./screenshots/FormIngresos.png) |
+| ![User Form](./screenshots/FormUsuarios.jpg) | ![Activity Form](./screenshots/FormActividades.jpg) | ![Income Form](./screenshots/FormIngresos.jpg) |

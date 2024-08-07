@@ -18,8 +18,8 @@ Esta es una aplicación móvil desarrollada con Java en Android Studio para gest
 
 | **Dashboard** | **Listado De Asistencias** | **Listado De Ingresos** |
 |:-------------------:|:--------------------------:|:----------------:|
-| ![Dashboard](./screenshots/Dashboard.png) | ![asistencias List](./screenshots/ListadoAsistencias.png) | ![ingresos List](./screenshots/ListadoIngresos.png) |
+| ![Dashboard](./screenshots/Dashboard.jpg) | ![asistencias List](./screenshots/ListadoAsistencias.jpg) | ![ingresos List](./screenshots/ListadoIngresos.jpg) |
 
 | **Formulario De Usuarios** | **Formulario De Actividades** | **Formulario De Ingresos** |
 |:-----------------------:|:---------------------------------:|:--------------------------------------:|
-| ![usuarios Form](./screenshots/FormUsuarios.png) | ![actividades Form](./screenshots/FormActividades.png) | ![ingresos Form](./screenshots/FormIngresos.png) |
+| ![usuarios Form](./screenshots/FormUsuarios.jpg) | ![actividades Form](./screenshots/FormActividades.jpg) | ![ingresos Form](./screenshots/FormIngresos.jpg) |
